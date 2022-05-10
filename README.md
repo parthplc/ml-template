@@ -30,7 +30,14 @@ Now follow the steps inside data folder README.md file.
 
 ### Mlflow experiment tracking
 
-For a detailed walk-through on how to track model metrics ,model version download the folder [mlflow](https://drive.google.com/drive/folders/1LY8O4atzZiCQMb_7t2saLoGFxqPBlX6u?usp=sharing) and save inside notebooks folder.
+For a detailed walk-through on how to track model metrics ,model version download the file mlflow_end_to_end.ipynb and keep inside mlflow folder. [Link to notebook](https://drive.google.com/drive/folders/1LY8O4atzZiCQMb_7t2saLoGFxqPBlX6u?usp=sharing) and save inside notebooks folder.
+
+Notebook folder would have three sub folders
+* data_processsing
+* dvc
+* mlflow
+
+
 
 ### Code quality and Formatting
 
