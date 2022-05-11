@@ -1,8 +1,8 @@
-## Knowledge Transfer for custom Cookie-cutter,Mlflow, Data versioning with DVC Git versioning,Python code linter flake8 and code formatting using Black
+# Knowledge Transfer for custom Cookie-cutter,Mlflow, Data versioning with DVC Git versioning,Python code linter flake8 and code formatting using Black
 
 -----------------------------------
 
-### Getting started
+## Getting started
 
 * Since we are following a specific modified cookie cutter for ml-projects first download structure from here [project](https://drive.google.com/drive/folders/117FUpr-tvNRYJGuLw2XxE7vSpxX9i0rb?usp=sharing) 
 
@@ -22,13 +22,14 @@ source env/Scripts/activate
 pip install -r requirements.txt
 ```
 
-### Tracking code and data
+## Tracking code USING dvc
 
-Before initilizing add virtual environment folder to .gitignore file
+Now follow the steps inside data/README.md file. It contains all steps on how to setup DVC for tracking dataset
+versions.
+<br/>
 
-Now follow the steps inside data folder README.md file.
 
-### Mlflow experiment tracking
+## Mlflow experiment tracking
 
 For a detailed walk-through on how to track model metrics ,model version download the file mlflow_end_to_end.ipynb and keep inside mlflow folder. [Link to notebook](https://drive.google.com/drive/folders/1LY8O4atzZiCQMb_7t2saLoGFxqPBlX6u?usp=sharing) and save inside notebooks folder.
 
@@ -38,9 +39,10 @@ Notebook folder would have three sub folders
 * mlflow
 
 
+<br/>
 
-### Code quality and Formatting
+## Code quality and Formatting
 
-For learning to use flake8 and black download the file [requirements.txt](https://drive.google.com/file/d/1nVTflC2pjufE3QLR9D_hEFTjB2M34csO/view?usp=sharing) from drive.
+For documentation to use flake8 and black download the file [requirements.txt](https://drive.google.com/file/d/1nVTflC2pjufE3QLR9D_hEFTjB2M34csO/view?usp=sharing) from drive and save inside reports folder.
 
-Follow the steps inside README.md for usage
+Follow the steps inside reports/README.md for usage.

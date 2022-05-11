@@ -1,5 +1,7 @@
 # Data versioning and code tracking using DVC and Git
 
+Note : Before initilizing git,add virtual environment folder to .gitignore file
+
 ### Setup for DVC
 
 * Download dataset from [here](https://www.kaggle.com/competitions/titanic/data). You can get your data from any source of your choice. 
@@ -42,7 +44,7 @@ We will use this folder as remote location to track data files.For remotely addi
 10SA7F6q6Ui7xcRmRfgdCVVSG2ZpP9qdF
 ```  
 
-Now we will follow the following commands
+Now we will follow the following commands.Reference link for using dvc remote is [here](https://dvc.org/doc/command-reference/remote/add#synopsis).
 
 ```
 
@@ -58,7 +60,7 @@ dvc remote modify storage url new_location_address
 ```
 
 
-Currently we have no data to track what so ever. We will create two python notebooks which will create two version of processed data with same final file name using raw data. Lets see how we can track them.
+Currently we have no data to track what so ever. We will create two python notebooks which will create two version of processed data from raw data with same final file name. Lets see how we can track them.
 
 ### Data versions changes
 
@@ -75,7 +77,9 @@ Lets check the size of the data.csv file version 1
 du -h data/processed/data.csv # 24K  data/processed/data.csv
 ```
 
-File size turns out to be 24kb.Now follow the below steps to track version 1 and pushing data to remote location.
+File size turns out to be 24kb.Now follow the below steps to track version 1 and pushing data to remote location. <br/>
+* Reference link for dvc add is [here](https://dvc.org/doc/command-reference/add#synopsis).
+* Reference link for dvc push is [here](https://dvc.org/doc/command-reference/push#synopsis).
 
 ```
 $ dvc add data/processed/data.csv
@@ -128,7 +132,7 @@ rm -f data/processed/data.csv
 rm -rf .dvc/cache
 ```
 
-To get data from remote location use
+To get data from remote location use. Here is reference for [dvc pull](https://dvc.org/doc/command-reference/pull#synopsis)
 
 ```
 dvc pull

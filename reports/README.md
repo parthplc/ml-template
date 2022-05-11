@@ -12,6 +12,13 @@ $ flake8 path_to_file/folder
 
 ```
 
+For saving results in a file named flake8_src.txt use
+
+```
+$ flake8 path_to_file/folder > flake8_src.txt
+
+```
+
 #### On normal python script
 
 Sample output for file code_quality/flake_notebook.ipynb is saved as flake_notebook.txt 
@@ -20,9 +27,19 @@ Sample output for file code_quality/flake_notebook.ipynb is saved as flake_noteb
 $ nbqa flake8 path_to_file/folder
 ```
 
+
+For saving results in a file named flake8_nb.txt use
+
+```
+$ nbqa flake8 path_to_file/folder > flake8_nb.txt
+
+```
+
 ### Code formatting for beautiful indentation using black
 
-****************************************************************
+****************************************************************\
+
+Black indents code, remove extra whitespace and in general beautify code. All changes would be done inside the original code file itself. You can use git diff to check difference in code.
 
 #### On normal python script
 
