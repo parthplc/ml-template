@@ -86,11 +86,19 @@ $ dvc add data/processed/data.csv
 
 $ git add 'data\processed\.gitignore' 'data\processed\data.csv.dvc'
 
-$ git tag -a 'v1' -m 'processed data 1' # will be of use in future for retriving data version
-
-$ git commit -m "Version 1 pushed"
+$ git commit -m "Started tracking data"
 
 $ dvc push # Command to push data to remote location. Will ask for authentication for first time.
+
+$ dvc add data/processed/data.csv
+
+$ git add 'data\processed\data.csv.dvc'
+
+$ git tag -a 'v1' -m 'processed data 1' # will be of use in future for retriving data version
+
+$ git commit -m "Version 1 tracked"
+
+$ dvc push
 
 ```
 
@@ -114,7 +122,7 @@ $ dvc add data/processed/data.csv
 
 $ git add 'data\processed\data.csv.dvc'
 
-$ git tag -a 'v3' -m 'processed data 3' #will of of use in future for retriving it version wise
+$ git tag -a 'v2' -m 'processed data 2' #will of of use in future for retriving it version wise
 
 $ git commit -m "Version 2 pushed"
 
