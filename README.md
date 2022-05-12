@@ -22,7 +22,7 @@ source env/Scripts/activate
 pip install -r requirements.txt
 ```
 
-## Tracking code USING dvc
+## Tracking data using dvc
 
 Now follow the steps inside data/README.md file. It contains all steps on how to setup DVC for tracking dataset
 versions.
