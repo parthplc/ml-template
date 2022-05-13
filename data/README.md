@@ -1,6 +1,10 @@
 # Data versioning and code tracking using DVC and Git
 
-Note : Before initilizing git,add virtual environment folder to .gitignore file
+Note : Before initilizing git,add virtual environment folder to .gitignore file. You can use below command or directly create a git ignore file and add env in the file. 
+
+```
+echo "env" > .gitignore
+```
 
 ### Setup for DVC
 
@@ -40,11 +44,14 @@ data/raw
 
 For this example, a google drive folder named ```Processed``` is created. Here is the [link](https://drive.google.com/drive/folders/10SA7F6q6Ui7xcRmRfgdCVVSG2ZpP9qdF). Since this an example we are using this dataset. 
 We will use this folder as remote location to track data files.For remotely adding this folder to our dvc tracked dataset we will first take the last part of the folder link which is this case is : 
+
 ```
 10SA7F6q6Ui7xcRmRfgdCVVSG2ZpP9qdF
 ```  
 
 Now we will follow the following commands.Reference link for using dvc remote is [here](https://dvc.org/doc/command-reference/remote/add#synopsis).
+
+#### Note : If you are using any other remote storage for your use-case you can check the syntax [here](https://dvc.org/doc/command-reference/remote/add#supported-storage-types).</b>
 
 ```
 
@@ -64,9 +71,11 @@ Currently we have no data to track what so ever. We will create two python noteb
 
 ### Data versions changes
 
+Below I have displayed how to track data version changes for our example. Most of the steps would be similar to this example project.
+
 Download the folder data_processing from [here](https://drive.google.com/drive/folders/1WZKyZwuGXqW4UcWNB9lY7pvXlMkHg0cF?usp=sharing) and store inside notebooks folder.Now, notebooks/data_processing/ contains two file which will helps generate a final file name data.csv which we will track using DVC.
 
-First we will start with Version 1 (v1). We will create first version of data using
+First we will start with create a Version 1 of processed data (v1). For this example,we will create first version of data using
 * notebook/data_processing/data-prep-1.ipynb 
 * run the whole file
 * it will create data/processed/data.csv file containing processed dataset.

@@ -4,13 +4,16 @@
 
 ## Getting started
 
-* Since we are following a specific modified cookie cutter for ml-projects first download structure from here [project](https://drive.google.com/drive/folders/117FUpr-tvNRYJGuLw2XxE7vSpxX9i0rb?usp=sharing) 
+* Since we are following a specific modified cookie cutter for ml-projects first download structure from here [project](https://drive.google.com/drive/folders/117FUpr-tvNRYJGuLw2XxE7vSpxX9i0rb?usp=sharing) . This would be standard practice for each project.
 
-* Download the folder and rename foldername. Then 
+* Download the Zip file and unzip it and rename foldername. Then 
+
 ```
 cd foldername
 ```
+
 * Create a virtual env and activate it
+
 ```
 python -m venv env
 
