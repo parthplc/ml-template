@@ -8,6 +8,8 @@ echo "env" > .gitignore
 
 ### Setup for DVC
 
+In this example we are using titanic dataset to showcase various functionality of DVC. 
+
 * Download dataset from [here](https://www.kaggle.com/competitions/titanic/data). You can get your data from any source of your choice. 
 
 * Unzip folder content inside data/raw folder.
