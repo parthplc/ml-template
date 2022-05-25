@@ -68,7 +68,6 @@ Incase you want to change your remote storage location you can use
 dvc remote modify storage url new_location_address
 ```
 
-
 Currently we have no data to track what so ever. We will create two python notebooks which will create two version of processed data from raw data with same final file name. Lets see how we can track them.
 
 ### Data versions changes
