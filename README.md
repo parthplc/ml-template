@@ -25,6 +25,11 @@ source env/Scripts/activate
 pip install -r requirements.txt
 ```
 
+## Data dirft detection using Alibi-detect
+A small demo drift detection notebook using alibi detect is inside notebooks/drift_detection folder. The script works on 
+tabular(numerical and categorical both) dataset. For different use case you can check out this [repo](https://github.com/parthplc/drifter).
+
+
 ## Tracking data using dvc
 
 Now follow the steps inside data/README.md file. It contains all steps on how to setup DVC for tracking dataset

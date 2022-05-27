@@ -1,0 +1,6 @@
+2022-05-25 10:29:30.959 | INFO     | __main__:<cell line: 1>:1 - {'data': {'is_drift': 0, 'distance': array([ 3.0852714,  0.       ,  0.1      ,  2.125    ,  2.2716577,
+        0.14     , 88.       ,  2.9049695], dtype=float32), 'p_val': array([0.2138168 , 1.        , 0.9426822 , 0.54687166, 0.32115582,
+       0.66033244, 0.3328474 , 0.23398817], dtype=float32), 'threshold': 0.00625}, 'meta': {'name': 'TabularDrift', 'detector_type': 'offline', 'data_type': None, 'version': '0.9.0'}}
+2022-05-27 08:30:50.432 | INFO     | __main__:<cell line: 1>:1 - {'data': {'is_drift': 0, 'distance': array([ 3.0852714,  0.       ,  0.1      ,  2.125    ,  2.2716577,
+        0.14     , 88.       ,  2.9049695], dtype=float32), 'p_val': array([0.2138168 , 1.        , 0.9426822 , 0.54687166, 0.32115582,
+       0.66033244, 0.3328474 , 0.23398817], dtype=float32), 'threshold': 0.00625}, 'meta': {'name': 'TabularDrift', 'detector_type': 'offline', 'data_type': None, 'version': '0.9.1'}}
