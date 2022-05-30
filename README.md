@@ -1,4 +1,4 @@
-# Knowledge Transfer for custom Cookie-cutter,Mlflow, Data versioning with DVC Git versioning,Python code linter flake8 and code formatting using Black
+# Knowledge Transfer for custom Cookie-cutter,Mlflow, Data versioning with DVC Git versioning,Drift detection using Alibi-detect,Model Explanability using SHAP,Python code linter flake8 and code formatting using Black
 
 -----------------------------------
 
