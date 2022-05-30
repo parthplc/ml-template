@@ -89,7 +89,7 @@ kiwisolver==1.4.2
 mailchecker==4.1.16
 Mako==1.2.0
 MarkupSafe==2.1.1
-matplotlib==3.5.2
+matplotlib==3.4.1
 matplotlib-inline==0.1.3
 mccabe==0.6.1
 mlflow==1.25.1

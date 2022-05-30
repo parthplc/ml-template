@@ -49,6 +49,12 @@ Notebook folder would have three sub folders
 
 <br/>
 
+## Model Explainability using SHAP
+
+For a detailed walkthrough on how to use SHAP for model explanability for our example on titanic dataset,check notebooks/model explanability/logisticreg_explain.ipynb. 
+<br/>
+
+
 ## Code quality and Formatting
 
 For documentation to use flake8 and black download the file [requirements.txt](https://drive.google.com/file/d/1nVTflC2pjufE3QLR9D_hEFTjB2M34csO/view?usp=sharing) from drive and save inside reports folder.
