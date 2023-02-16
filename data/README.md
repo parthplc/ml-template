@@ -4,6 +4,8 @@ Note : Before initilizing git,add virtual environment folder to .gitignore file.
 
 ```
 echo "env" > .gitignore
+
+pip install pywin32==300
 ```
 
 ### Setup for DVC
